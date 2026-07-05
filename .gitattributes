@@ -1,2 +1,11 @@
-demo/** linguist-vendored=false
-emo/** linguist-documentation=false
+# Count JS source files normally
+**/*.js linguist-detectable=true
+
+# If you have generated/minified JS, mark that as vendored
+**/*.min.js linguist-vendored=true
+dist/** linguist-vendored=true
+build/** linguist-vendored=true
+node_modules/** linguist-vendored=true
+
+# Keep docs from affecting language stats
+docs/** linguist-documentation=true
