@@ -1,2 +1,2 @@
-app/** linguist-documentation=false
-app/** linguist-vendored
+demo/** linguist-vendored=false
+emo/** linguist-documentation=false
